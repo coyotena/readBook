@@ -3,6 +3,7 @@ import React from 'react';
 import {render} from 'react-dom';
 import {Provider} from  'react-redux';
 import {HashRouter, Route, Switch, Redirect} from 'react-router-dom';
+import store from './store/index'
 
 /* antd */
 import {LocaleProvider} from 'antd';
@@ -19,7 +20,13 @@ render(
     <Provider store={store}>
         <LocaleProvider locale={zh_cn}>
             <HashRouter>
-                
+                <Switch>
+                    <Route to={'/home'}/>
+                    <Route to={'/'}/>
+                    <Route/>
+                    <Route/>
+                    <Redirect to={'/home'}/>
+                </Switch>
             </HashRouter>
         </LocaleProvider>
     </Provider>,

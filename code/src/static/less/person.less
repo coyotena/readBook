@@ -1,0 +1,71 @@
+@import '_variable';
+@import '_minxStyle';
+
+.person {
+  height: 100%;
+    background: #fff;
+  &-info {
+    header {
+      display: flex;
+      padding: 1.5rem .7rem 1rem;
+      background: @bgf4;
+      .left {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        h2 {
+          font-size: .8rem;
+          color: @color3;
+          font-weight: bold;
+          margin-bottom: 0;
+        }
+        p {
+          a {
+            &:first-child {
+              padding: .4rem 0;
+              font-size: .4rem;
+              color: @color6;
+            }
+            &:last-child {
+              padding: .4rem;
+              font-size: .3rem;
+              color: @color9;
+            }
+          }
+        }
+      }
+      .right {
+        width: 2.3rem;
+        .ant-avatar-lg {
+          width: 2rem;
+          height: 2rem;
+          border-radius: 50%;
+          overflow: hidden;
+          & > * {
+            line-height: 2rem;
+          }
+        }
+
+      }
+    }
+    .info-list {
+      padding: .2rem .4rem;
+      li {
+        a {
+          display: block;
+          color: @desc;
+          padding: 1rem 0 .4rem;
+          font-size: .4rem;
+          border-bottom: .01rem solid @borderColor;
+
+          i {
+            width: 1rem;
+            font-size: .6rem;
+            color: @desc;
+          }
+        }
+      }
+    }
+
+  }
+}

@@ -11,7 +11,7 @@ class NavBottom extends React.Component {
         return (
             <div className="navBottom">
                 <NavLink to="/home">
-                    <Icon type="home"/>
+                    <Icon type="compass" />
                     <span>探索</span>
                 </NavLink>
                 <NavLink to="/play">

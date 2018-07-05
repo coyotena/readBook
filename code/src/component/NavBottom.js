@@ -15,11 +15,11 @@ class NavBottom extends React.Component {
                     <span>探索</span>
                 </NavLink>
                 <NavLink to="/play">
-                    <Icon type="profile"/>
+                    <Icon type="rocket" />
                     <span>玩法</span>
                 </NavLink>
                 <NavLink to="/roomcar">
-                    <Icon type="shopping-cart"/>
+                    <Icon type="car" />
                     <span>房车</span>
                 </NavLink>
                 <NavLink to="/person">

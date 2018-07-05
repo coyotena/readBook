@@ -8,7 +8,7 @@ class Play extends React.Component{
     render(){
         return <div>
           我是玩法
-            <NavBottom></NavBottom>
+            <NavBottom/>
         </div>
     }
 }

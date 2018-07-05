@@ -9,7 +9,7 @@ class Person extends React.Component{
     render(){
         return <div>
             我是个人中心
-            <NavBottom></NavBottom>
+            <NavBottom/>
         </div>
     }
 }

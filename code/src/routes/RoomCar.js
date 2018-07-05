@@ -9,7 +9,7 @@ class RoomCar extends React.Component{
     render(){
         return <div>
             我是房车
-            <NavBottom></NavBottom>
+            <NavBottom/>
         </div>
     }
 }

@@ -2,6 +2,7 @@
 @import '_minxStyle';
 
 .homeBox{
+  padding-bottom:1.6rem;
   .banner{
     .ant-carousel .slick-slide {
       text-align: center;
@@ -10,6 +11,29 @@
         display:block;width:100%;
         img{width:100%}
       }
+    }
+  }
+  .grid{
+    h3{padding:0.32rem;font-size:.4rem;color:@color3;}
+    ul{
+      min-width:100%;overflow-x:auto;white-space:nowrap;font-size:0;
+      li{
+        width:3.2rem;display:inline-block;vertical-align:top;
+        margin-left:.35rem;height:7rem;
+        a{
+          display:block;width:100%;white-space:normal;
+          img{width:100%;}
+          h4,p{box-sizing:border-box;}
+          h4{.ellipsis;color:@color3;font-size:.36rem;padding:0.2rem 0;margin-bottom:0}
+          p{color:@color9;font-size:.3rem;line-height:.4rem;}
+        }
+        &:last-child{margin-right: .3rem;}
+      }
+    }
+  }
+  .linkModular{
+    a{
+      img{width:100%}
     }
   }
 }

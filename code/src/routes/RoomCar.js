@@ -1,5 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
+import NavBottom from '../component/NavBottom'
 
 class RoomCar extends React.Component{
     constructor(props,context){
@@ -8,6 +9,7 @@ class RoomCar extends React.Component{
     render(){
         return <div>
             我是房车
+            <NavBottom></NavBottom>
         </div>
     }
 }

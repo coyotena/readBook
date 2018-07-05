@@ -12,19 +12,19 @@ class NavBottom extends React.Component {
             <div className="navBottom">
                 <NavLink to="/home">
                     <Icon type="home"/>
-                    <span>首页</span>
+                    <span>探索</span>
                 </NavLink>
-                <NavLink to="/classify">
+                <NavLink to="/play">
                     <Icon type="profile"/>
-                    <span>分类</span>
+                    <span>玩法</span>
                 </NavLink>
-                <NavLink to="/shopcart">
+                <NavLink to="/roomcar">
                     <Icon type="shopping-cart"/>
-                    <span>购物车</span>
+                    <span>房车</span>
                 </NavLink>
                 <NavLink to="/person">
                     <Icon type="user"/>
-                    <span>个人</span>
+                    <span>我的</span>
                 </NavLink>
             </div>
         )

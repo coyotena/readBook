@@ -3,6 +3,11 @@ import React from 'react';
 import {render} from 'react-dom';
 import {Provider} from  'react-redux';
 import {HashRouter, Route, Switch, Redirect} from 'react-router-dom';
+import Home from './routes/Home'
+import Play from './routes/Play'
+import RoomCar from './routes/RoomCar'
+import Person from './routes/Person'
+
 import store from './store/index'
 
 /* antd */
@@ -21,10 +26,10 @@ render(
         <LocaleProvider locale={zh_cn}>
             <HashRouter>
                 <Switch>
-                    <Route to={'/home'}/>
-                    <Route to={'/'}/>
-                    <Route/>
-                    <Route/>
+                    <Route path={'/home'} component={Home}/>
+                    <Route path={'/play'} component={Play}/>
+                    <Route path={'/roomcar'} component={RoomCar}/>
+                    <Route path={'/person'} component={Person}/>
                     <Redirect to={'/home'}/>
                 </Switch>
             </HashRouter>

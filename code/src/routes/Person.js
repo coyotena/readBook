@@ -21,7 +21,6 @@ class Person extends React.Component{
 
                 <Redirect from="/person" to='/person/main'/>
             </Switch>
-            <NavBottom/>
         </div>
     }
 }

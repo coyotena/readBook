@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {Avatar, Icon} from 'antd';
+import NavBottom from '../../component/NavBottom';
 
 import '../../static/less/person.less';
 
@@ -38,8 +39,9 @@ class Info extends React.Component {
                     <li><Link to="/home"><Icon type="file-text"/>我的订单</Link></li>
                     <li><Link to="/home"><Icon type="contacts"/>我的点评</Link></li>
                     <li><Link to="/home"><Icon type="setting"/>设置</Link></li>
-
                 </ul>
+                <NavBottom/>
+
             </div>
         )
     }

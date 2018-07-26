@@ -1,5 +1,4 @@
 import React from 'react';
-import {connect} from 'react-redux';
 import {withRouter,NavLink} from 'react-router-dom';
 import {Icon} from 'antd';
 
@@ -31,4 +30,4 @@ class NavBottom extends React.Component {
     }
 }
 
-export default withRouter(connect()(NavBottom));
+export default withRouter(NavBottom);

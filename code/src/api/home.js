@@ -1,16 +1,8 @@
-import axios from "axios";
+import axios from "./index";
 
-export function brandList(limit) {
-    return axios.get('/goods/list', {
-        params: {
-            limit
-        }
-    });
-}
-/*@target：获取搜索结果
-* @params: 商品name*/
-export function search(name={}) {
-    return axios.get('/goods/search', {
-        params:name
-    });
+export function banner() {
+    return new Promise((resolve, reject) => {
+        let result = require('../json/home.json');
+        !!result ? resolve(result) : reject(result);
+    })
 }

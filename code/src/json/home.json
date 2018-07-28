@@ -1,13 +1,54 @@
-[{
-  "id":1,
-   "pic":"https://image.xiaozhustatic2.com/00,675,500/15,0,93,10309,675,500,90c6e9cf.jpg"
-},{
-  "id":2,
-  "pic":"https://image.xiaozhustatic2.com/00,675,500/15,0,66,10466,675,500,9511d4d9.jpg"
-},{
-  "id":3,
-  "pic":"https://image.xiaozhustatic1.com/00,675,500/15,0,52,10371,675,500,5af4775d.jpg"
-},{
-  "id":4,
-  "pic":"https://image.xiaozhustatic2.com/00,675,500/15,0,26,10445,675,500,7ba8ac05.jpg"
-}]
+{
+  "bannerList":[{
+    "id":1,
+    "pic":"https://image.xiaozhustatic2.com/00,675,500/15,0,93,10309,675,500,90c6e9cf.jpg"
+  },{
+    "id":2,
+    "pic":"https://image.xiaozhustatic2.com/00,675,500/15,0,66,10466,675,500,9511d4d9.jpg"
+  },{
+    "id":3,
+    "pic":"https://image.xiaozhustatic1.com/00,675,500/15,0,52,10371,675,500,5af4775d.jpg"
+  },{
+    "id":4,
+    "pic":"https://image.xiaozhustatic2.com/00,675,500/15,0,26,10445,675,500,7ba8ac05.jpg"
+  }],
+  "gridTop":[{
+    "id":5,
+    "name":"双地铁",
+    "desc":"双地铁蒲黄榆近天安门北京南站温馨小开间",
+    "pic":"//i1.mayi.com/mayi69/M11/UP/OY/ZXWAUDA9AGNS3NCC37A2XS44SBLQ48.jpg_240x240c.jpg"
+  },{
+    "id":6,
+    "name":"蒲黄榆",
+    "desc":"双地铁蒲黄榆近天安门北京南站温馨小开间",
+    "pic":"//i1.mayi.com/mayi64/M30/RA/GK/DKCRSHL4WFLM4TS7B4F457RCGSUJ7U.jpg_240x240c.jpg"
+  },{
+    "id":7,
+    "name":"天安门",
+    "desc":"双地铁蒲黄榆近天安门北京南站温馨小开间",
+    "pic":"//i1.mayi.com/mayi97/M75/BP/UM/FGWSLP5CHWTA3S2EU8KH234UMMTFHS.jpg_240x240c.jpg"
+  },{
+    "id":8,
+    "name":"北京南站",
+    "desc":"双阿斯顿发黄榆近天安门北京南站温馨小开间",
+    "pic":"//i1.mayi.com/mayi76/M84/RI/QC/SZU8BAM48LPHTKJLQ5G352EDY4YPQV.jpg_240x240c.jpg"
+  }],
+  "gridBottom":[
+    {
+      "id":9,
+      "name":"黄榆",
+      "desc":"双地铁蒲黄榆近天安门北京南站温馨小开间",
+      "pic":"//i1.mayi.com/mayi10/M11/CL/KL/C6JMJLEW4YGERNB4AUAL6UX8DDR4QW.jpg_240x240c.jpg"
+    },{
+      "id":10,
+      "name":"蒲黄榆",
+      "desc":"双地铁蒲黄榆近天安门北京南站温馨小开间",
+      "pic":"//i1.mayi.com/mayi69/M84/WK/CO/N6MJPFHBTPT26CJAZ4WVRR3ELRKUWX.jpg_240x240c.jpg"
+    },{
+      "id":11,
+      "name":"天安门",
+      "desc":"双地铁蒲黄榆近天安门北京南站温馨小开间",
+      "pic":"//i1.mayi.com/mayi30/M16/ZU/XU/CQMM8K847ZYK7B7MVSG6WCYP55BKRG.jpg_240x240c.jpg"
+    }]
+
+}

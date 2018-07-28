@@ -1,12 +1,18 @@
 @import '~antd/dist/antd.css';
 @import './_variable';
 @import '_minxStyle';
-
+h1, h2, h3, h4, h5, h6{margin-bottom:0}
+::-webkit-scrollbar {
+  width: 0;height: 0; background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background:rgba(255, 255, 255, 0); width: 0;height: 0;
+}
 html,body {
   font-size: 100px;
   font-family: PingFangSC-Light,helvetica,'Heiti SC';
   -webkit-tap-highlight-color: transparent;
-  background-color: @bgf4;
+  //background-color: @bgf4;
 }
 #root {
   margin: 0 auto;

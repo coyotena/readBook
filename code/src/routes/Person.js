@@ -1,15 +1,14 @@
-
 /**
  * @autor: Eva
  * @Created by Eva on 2018/7/5.
  */
 import React from 'react'
 import {connect} from 'react-redux'
-import {Switch,Route,Redirect} from 'react-router-dom';
+import {Switch,Route,Redirect} from 'react-router-dom'
 import NavBottom from '../component/NavBottom'
-import Login from './person/Login';
-import Info from './person/Info';
-import Register from './person/Register';
+import Login from './person/Login'
+import Info from './person/Info'
+import Register from './person/Register'
 
 
 
